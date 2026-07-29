@@ -1,0 +1,29 @@
+{
+  "name": "vector-clock-crdt",
+  "version": "1.0.0",
+  "description": "Distributed clock and CRDT implementation with vector clocks for causal ordering and concurrent event tracking",
+  "main": "dist/vector-clock.js",
+  "types": "dist/vector-clock.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.ts",
+    "test:watch": "node --watch --test tests/*.test.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "vector-clock",
+    "crdt",
+    "distributed-systems",
+    "causality",
+    "concurrent",
+    "conflict-free"
+  ],
+  "author": "Mohammad Hossin Zehi",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
